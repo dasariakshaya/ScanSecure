@@ -19,19 +19,32 @@ ScanSecure is a web-based portal built to scan Driver’s Licenses (DL) and vehi
 
 ## Project Structure
 
+## Project Structure
+
 ```text
-ScanSecure/
-├── client/           # Frontend files (HTML, CSS, JavaScript)
-├── server/           # Node.js + Express backend
-│   ├── routes/       # API endpoints
-│   └── controllers/  # Logic handlers
-├── ocr-service/      # Python scripts for OCR (Tesseract)
-├── models/           # MongoDB schemas
-├── config/           # Database and app configuration
-├── public/           # Static assets
-├── app.js            # Express server entry point
-├── README.md
-└── package.json
+AI_tollgate_project/
+├── .vscode/                     # VSCode settings
+├── node_modules/               # Node.js dependencies
+├── .gitignore                  # Git ignore rules
+├── admin-login.html            # Admin login page
+├── alert-logs.html             # Page showing vehicle/DL scan alerts
+├── blacklist-management.html   # Interface for managing blacklisted users
+├── connect_mongo.py            # Python MongoDB connection script
+├── index.html                  # Landing page
+├── indian-emblem.png           # Image asset
+├── indian-emblem.svg           # SVG image asset
+├── operator-login.html         # Operator login page
+├── package-lock.json           # NPM lock file
+├── package.json                # NPM project configuration
+├── rc_ocr_service.py           # Python OCR script for RC scanning
+├── scan.html                   # Main scanning interface
+├── script.js                   # Frontend JavaScript logic
+├── server_r.js                 # Node.js + Express backend server
+├── settings.html               # Settings/Configuration UI
+├── style.css                   # Main stylesheet
+├── superadmin-login.html       # Super admin login page
+├── user-management.html        # Admin page to manage users
+├── vehicle-logs.html           # Logs of scanned vehicles
 ```
 
 
