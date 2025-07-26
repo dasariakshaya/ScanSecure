@@ -64,23 +64,27 @@ AI_tollgate_project/
 ```bash
 git clone https://github.com/your-username/ScanSecure.git
 cd ScanSecure
+```
 
 2. Install Node dependencies:
 
 ```bash
 cd server
 npm install
+```
 
 3.Set up environment variables (.env file):
 
 ```bash
 PORT=5000
 MONGO_URI=your_mongo_connection_string
+```
 
 4.Start the server:
 
 ```bash
 node server_r.js
+```
 
 ## OCR Service Setup
 
@@ -88,11 +92,13 @@ node server_r.js
 
 ```bash
 pip install -r requirements.txt
+```
 
 2. Run the OCR script (this should be integrated or triggered via the backend):
 
 ```bash
 python ocr_main.py
+```
 
 ## How It Works
 
@@ -104,7 +110,6 @@ python ocr_main.py
 - If verification is successful, the entry is logged and marked as valid.
 - All scan activities are recorded and can be reviewed via the admin dashboard.
 
----
 
 ## Future Improvements
 
