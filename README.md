@@ -18,18 +18,21 @@ ScanSecure is a web-based portal built to scan Driver’s Licenses (DL) and vehi
 **Database**: MongoDB
 
 ## Project Structure
+
+```text
 ScanSecure/
-├── client/ # Frontend files (HTML, CSS, JS)
-├── server/ # Node.js + Express backend
-│ ├── routes/ # API endpoints
-│ └── controllers/ # Logic handlers
-├── ocr-service/ # Python scripts for OCR (Tesseract)
-├── models/ # MongoDB schemas
-├── config/ # DB and app config
-├── public/ # Static assets
-├── app.js # Express entry point
+├── client/           # Frontend files (HTML, CSS, JavaScript)
+├── server/           # Node.js + Express backend
+│   ├── routes/       # API endpoints
+│   └── controllers/  # Logic handlers
+├── ocr-service/      # Python scripts for OCR (Tesseract)
+├── models/           # MongoDB schemas
+├── config/           # Database and app configuration
+├── public/           # Static assets
+├── app.js            # Express server entry point
 ├── README.md
 └── package.json
+```
 
 
 ## Installation and Setup
